@@ -1,4 +1,4 @@
-Location,Year,Month,Day,Latitude,Longitude,Country/Region,Type,Death Toll,Livestock,Mountaineering (Y/N),Remarks,Source
+Location,Year,Month,Day,Latitude,Longitude,Country,Type,Fatalities,Livestock,Leisure,Remarks,Source
 Manaslu,1972,4,10,,,Nepal,,15,,,,"(Thakuri et al., 2020)"
 Lahaul,1979,3,6,31.841332,77.485476,India,,237,,,"Intense snowstorms triggered the avalanches, which buried the valley under almost 6 m of snow","(SoER, 2005)"
 1980 avalanche/snowstorm ,1980,,,,,Nepal,,10,,,,"(Thakuri et al., 2020)"

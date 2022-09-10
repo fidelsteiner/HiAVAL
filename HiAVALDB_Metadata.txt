@@ -1,0 +1,27 @@
+!DATASET DESCRIPTION
+Name: HiAVAL
+Description: Historic avalanches in HMA
+Contact person: A. Acharya, J.Steiner
+Email: anushilanacharya@gmail.com; jff.steiner@gmail.com
+DOI: 
+
+!DATASET VARIABLES
+
+Remarks		Variables can either be alphanumerical (A/N), random text (TXT), text from a prescribed list (STR) or an integer (INT). For all integer options, '+' denotes that impact was >0 but numbers are unavailable.
+
+VAR	FORMAT	DESCRIPTION	UNIT
+Location	TXT	General descriptor of event (ideally location name).	-
+Year	INT	Year of event.	-	-
+Month	INT	Exact month the avalanche happened.	-
+Day	INT	Exact day the avalanche happened. -
+Latitude	INT	Latitude of event (approximate).	Decimal
+Longitude	INT	Longitude of event (approximate).	Decimal
+Elev_lake	INT	Elevation of lake.	m a.s.l.
+Country	STR	Country the event happened in.	-
+Type	STR	Type of avalanche. -
+Fatalities	INT	Number of people killed in event. -
+Livestock	INT	Number of livestock killed
+Leisure	STR	Whether or not the event is associated to leisure (Y). Note this does not include high mountaineering, but examples like accidents in skiing areas.	
+Remarks	TXT	General remarks.
+Source	TXT	Source the information is based on.
+

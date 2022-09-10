@@ -1,0 +1,17 @@
+!DATASET DESCRIPTION
+Name: HiAVALclim
+Description: Historic avalanches from high altitude mountaineering in HMA
+Contact person: A. Acharya, J.Steiner
+Email: anushilanacharya@gmail.com; jff.steiner@gmail.com
+DOI: 
+
+
+!DATASET VARIABLES
+
+Peak	Name of peak that was cimbed/attempted
+Elevation	Elevation of peak
+Country	Country peak is located in
+Total_events	Number of individual avalanche events
+Total_fatalities	Total number of fatalities
+Staff_fatalities	Total number of fatalities of hired staff.
+

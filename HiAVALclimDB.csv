@@ -1,54 +1,52 @@
-Peak,Elevation,Country,Number of total deaths ,Number of accidents ,Hired Staff,Hired Staff [%]
-,,,,,,
-Pik Lenin,7134,Tajikistan/Kyrgyzstan,43,1,0,0
-Khan Tengri,7010,Kyrgyzstan/Kazakhstan,11,3,0,0
-Belukha,4506,Kazakhstan,2,1,0,0
-Mingbo Eiger,6017,Nepal,3,1,0,0
-Tashi Kang,6386,,1,1,0,0
-Langshisa Ri,6412,Nepal,9,3,0,0
-Hiunchuli (Patal Hiunchuli),6434,Nepal,4,2,1,25
-Kande Hiunchuli North I,6521,Nepal,1,1,0,0
-Chobuje,6686,Nepal,2,1,0,0
-Ganesh V,6770,Nepal,4,1,0,0
-Ama Dablam,6814,Nepal,7,2,3,43
-Leonpo Gang,6979,Nepal,3,1,2,67
-Kang Guru,6981,,15,1,11,73
-Thulagi,7059,Nepal,1,1,0,0
-Ganesh IV,7104,Nepal,4,2,0,0
-Ganesh II,7118,Nepal,3,1,0,0
-Himlung Himal,7126,Nepal,4,2,4,100
-Tilicho,7134,Nepal,4,2,0,0
-Pumori,7138,,19,5,5,26
-Chamar North (Peak 23),7165,Nepal,1,1,0,0
-Gurja Himal,7193,Nepal,9,1,4,44
-Annapurna South (Annapurna Dakshin),7219,Nepal,5,2,2,40
-Langtang Lirung,7227,Nepal,13,3,4,31
-Putha Hiunchuli (Dhaulagiri VII),7246,Nepal,3,1,1,33
-Himalchuli North,7331,Nepal,3,1,0,0
-Churen Himal West,7371,Nepal,2,1,0,0
-Gangapurna,7455,Nepal,10,2,5,50
-Shartse II,7457,Nepal,1,1,0,0
-Annapurna IV,7525,Nepal,3,2,1,33
-Annapurna III,7555,Nepal,3,1,0,0
-Annapurna III,7555,Nepal,1,1,0,0
-Dhaulagiri V,7618,Nepal,1,1,0,0
-Dhaulagiri IV,7661,Nepal,4,2,4,100
-Jannu (Khumbhakarna),7711,Nepal,2,1,0,0
-Dhaulagiri II,7751,Nepal,2,1,2,100
-Nuptse,7864,Nepal,1,1,0,0
-"Peak 29 (Ngadi Chuli, Dr Harka Gurung Chuli)",7871,Nepal,3,1,0,0
-Shisha Pangma,8013,China,15,8,2,13
-Gasherbrum II ,8035,Pakistan/China,4,3,0,0
-Broad Peak,8047,Pakistan,5,4,1,20
-Gasherbrum I ,8068,Pakistan/China,10,4,4,40
-Annapurna I ,8091,Nepal,41,19,13,32
-Nanga Parbat,8125,Pakistan,36,11,11,31
-Manaslu ,8163,Nepal,39,11,13,33
-Dhaulagiri,8167,Nepal,44,16,16,36
-Cho Oyu,8201,Nepal/China,10,5,5,50
-Makalu,8463,Nepal/China,3,3,1,33
-Lhotse (8516 m) (Nepal) ,8516,Nepal,14,8,2,14
-Kangchenjunga,8586,Nepal/India,6,,2,33
-K2,8611,Pakistan/China,24,10,4,17
-Everest,8848,Nepal/China,98,32,66,67
-TOTAL,,,556,190,189,34
+Peak,Elevation,Country,Total_fatalities,Total_events,Staff_fatalities
+Pik Lenin,7134,Tajikistan/Kyrgyzstan,43,1,0
+Khan Tengri,7010,Kyrgyzstan/Kazakhstan,11,3,0
+Belukha,4506,Kazakhstan,2,1,0
+Mingbo Eiger,6017,Nepal,3,1,0
+Tashi Kang,6386,,1,1,0
+Langshisa Ri,6412,Nepal,9,3,0
+Hiunchuli (Patal Hiunchuli),6434,Nepal,4,2,1
+Kande Hiunchuli North I,6521,Nepal,1,1,0
+Chobuje,6686,Nepal,2,1,0
+Ganesh V,6770,Nepal,4,1,0
+Ama Dablam,6814,Nepal,7,2,3
+Leonpo Gang,6979,Nepal,3,1,2
+Kang Guru,6981,,15,1,11
+Thulagi,7059,Nepal,1,1,0
+Ganesh IV,7104,Nepal,4,2,0
+Ganesh II,7118,Nepal,3,1,0
+Himlung Himal,7126,Nepal,4,2,4
+Tilicho,7134,Nepal,4,2,0
+Pumori,7138,,19,5,5
+Chamar North (Peak 23),7165,Nepal,1,1,0
+Gurja Himal,7193,Nepal,9,1,4
+Annapurna South (Annapurna Dakshin),7219,Nepal,5,2,2
+Langtang Lirung,7227,Nepal,13,3,4
+Putha Hiunchuli (Dhaulagiri VII),7246,Nepal,3,1,1
+Himalchuli North,7331,Nepal,3,1,0
+Churen Himal West,7371,Nepal,2,1,0
+Gangapurna,7455,Nepal,10,2,5
+Shartse II,7457,Nepal,1,1,0
+Annapurna IV,7525,Nepal,3,2,1
+Annapurna III,7555,Nepal,3,1,0
+Annapurna III,7555,Nepal,1,1,0
+Dhaulagiri V,7618,Nepal,1,1,0
+Dhaulagiri IV,7661,Nepal,4,2,4
+Jannu (Khumbhakarna),7711,Nepal,2,1,0
+Dhaulagiri II,7751,Nepal,2,1,2
+Nuptse,7864,Nepal,1,1,0
+"Peak 29 (Ngadi Chuli, Dr Harka Gurung Chuli)",7871,Nepal,3,1,0
+Shisha Pangma,8013,China,15,8,2
+Gasherbrum II ,8035,Pakistan/China,4,3,0
+Broad Peak,8047,Pakistan,5,4,1
+Gasherbrum I ,8068,Pakistan/China,10,4,4
+Annapurna I ,8091,Nepal,41,19,13
+Nanga Parbat,8125,Pakistan,36,11,11
+Manaslu ,8163,Nepal,39,11,13
+Dhaulagiri,8167,Nepal,44,16,16
+Cho Oyu,8201,Nepal/China,10,5,5
+Makalu,8463,Nepal/China,3,3,1
+Lhotse,8516,Nepal,14,8,2
+Kangchenjunga,8586,Nepal/India,6,,2
+K2,8611,Pakistan/China,24,10,4
+Qomolongma,8848,Nepal/China,98,32,66
