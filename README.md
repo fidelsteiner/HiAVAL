@@ -1,4 +1,6 @@
 # HiAVAL
+
+![alt text](https://github.com/fidelsteiner/HMAGLOFDB/blob/main/HiAVALLogo.png?raw=true)
 Avalanches in high mountain Asia
 
 This database includes recorded avalanche events in high mountain Asia, documented in XXX. Events are quality controlled up to 2021/07/31, events after that date visible in the database need cross validation.
