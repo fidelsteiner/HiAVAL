@@ -1,4 +1,6 @@
 Peak,Elevation,Country,Total_fatalities,Total_events,Staff_fatalities
+Gangapurna,7455,Nepal,8,1,0
+Sisne Himal,5911,Nepal,1,1,0
 Pik Lenin,7134,Tajikistan/Kyrgyzstan,43,1,0
 Khan Tengri,7010,Kyrgyzstan/Kazakhstan,11,3,0
 Belukha,4506,Kazakhstan,2,1,0
@@ -11,7 +13,7 @@ Chobuje,6686,Nepal,2,1,0
 Ganesh V,6770,Nepal,4,1,0
 Ama Dablam,6814,Nepal,7,2,3
 Leonpo Gang,6979,Nepal,3,1,2
-Kang Guru,6981,,15,1,11
+Kang Guru,6981,Nepal,15,1,11
 Thulagi,7059,Nepal,1,1,0
 Ganesh IV,7104,Nepal,4,2,0
 Ganesh II,7118,Nepal,3,1,0
@@ -50,3 +52,4 @@ Lhotse,8516,Nepal,14,8,2
 Kangchenjunga,8586,Nepal/India,6,,2
 K2,8611,Pakistan/China,24,10,4
 Qomolongma,8848,Nepal/China,98,32,66
+,,,565,192,189

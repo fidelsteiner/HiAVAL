@@ -16,10 +16,11 @@ Month	INT	Exact month the avalanche happened.	-
 Day	INT	Exact day the avalanche happened. -
 Latitude	INT	Latitude of event (approximate).	Decimal
 Longitude	INT	Longitude of event (approximate).	Decimal
-Elev_lake	INT	Elevation of lake.	m a.s.l.
 Country	STR	Country the event happened in.	-
 Type	STR	Type of avalanche. -
+Impact	STR	Y if avalanche had recorded impact on lives/livelihoods/infrastructure, N if no impact
 Fatalities	INT	Number of people killed in event. -
+Injured	INT	Number of people injured in event.
 Livestock	INT	Number of livestock killed
 Leisure	STR	Whether or not the event is associated to leisure (Y). Note this does not include high mountaineering, but examples like accidents in skiing areas.	
 Remarks	TXT	General remarks.

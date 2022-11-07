@@ -5,6 +5,11 @@ Contact person: A. Acharya, J.Steiner
 Email: anushilanacharya@gmail.com; jff.steiner@gmail.com
 DOI: 
 
+The database is based on data collected at the following repositories:
+
+https://www.himalayandatabase.com/online.html
+http://www.8000ers.com/cms/en/download.html?func=select&id=4
+https://en.wikipedia.org/wiki/List_of_deaths_on_eight-thousanders
 
 !DATASET VARIABLES
 
