@@ -4,14 +4,14 @@
 # HiAVAL_Figures.R
 #
 # ReadMe: 
-# Read and analyze avalanche events
+# Read and analyze avalanche events from https://github.com/fidelsteiner/HiAVAL
 #
 #
 # Created:          2022/11/04
-# Latest Revision:  2022/11/104
+# Latest Revision:  2023/03/30
 #
 #
-# Jakob F Steiner| ICIMOD | jakob.steiner@icimod.org | x-hydrolab.org 
+# Jakob F Steiner | x-hydrolab.org 
 ################################################################################
 # clear entire workspace (excl. packages)
 rm(list = ls())
@@ -38,15 +38,15 @@ library(ggplot2)
 
 projec_utm <- '+proj=utm +datum=WGS84'
 
-data_path <- 'D:\\Work\\Repositories\\HiAVAL'       # location of the database on local station
+data_path <- 'C:\\Work\\Repositories\\HiAVAL'       # location of the database on local station
 db_file <- 'HiAVALDB.csv'                                         # file name of database
 
-figures_path <- 'D:\\Work\\Research\\Avalanches\\ManuscriptAnushilan\\Figures'
+figures_path <- 'C:\\Work\\Research\\Avalanches\\ManuscriptAnushilan\\Figures'
 
-DEM_path <- 'D:\\Work\\GeospatialData\\HMA\\SRTM\\VoidFilled'           # location of DEM for topographic analysis
+DEM_path <- 'C:\\Work\\GeospatialData\\HMA\\SRTM\\VoidFilled'           # location of DEM for topographic analysis
 DEM_file <- 'SRTM_Corrected_Extended_HMA.tif'                           # DEM filename
 
-HKH_path <- 'D:\\Work\\GeospatialData\\HMA\\HKH_Boundary'               # location of HKH Outline (http://rds.icimod.org/Home/DataDetail?metadataId=3924&searchlist=True)
+HKH_path <- 'C:\\Work\\GeospatialData\\HMA\\HKH_Boundary'               # location of HKH Outline (http://rds.icimod.org/Home/DataDetail?metadataId=3924&searchlist=True)
 HKH_file <- 'HKH_Outline.shp'
 HKH_outline<-readOGR(dsn=HKH_path&'\\'&HKH_file)                        # read in HKH outline
 HKH_outline <- spTransform(HKH_outline,CRSobj = "+proj=longlat +datum=WGS84 +no_defs")                          
@@ -60,7 +60,7 @@ DEM_HMA <- raster(DEM_path&'\\'&DEM_file)                       # Load DEM
 # 1 Evaluate avalanche database
 ################
 
-db_data <- read.csv(data_path&'\\'&db_file)
+db_data <- read.csv(data_path&'\\'&db_file, fileEncoding="latin1")
 missingYear <- length(which(is.na(db_data$Year))) / length(db_data$Year) * 100   # Events where we do not know the year
 availableDay <- length(which(!is.na(db_data$Day))) / length(db_data$Year) * 100
 availableMonth <- length(which(!is.na(db_data$Month))) / length(db_data$Year) * 100
@@ -91,23 +91,24 @@ db_dataImpact <- db_data[avalImpact,]
 cbbPalette <- c("#000000", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
 
 seasonalCol <- RColorBrewer::brewer.pal(9, "RdYlGn")
+seasonalCol <- seasonalCol[-5]
 coeff <- 50
 pdecadal <- ggplot(subset(db_dataImpact, numyear>0), aes(x=factor(decade),fill = factor(Region)))+
   geom_bar(stat="count", width=1, position = position_dodge2(preserve = "single"))+
-  geom_bar(stat = 'identity',width=0.05,col='grey', aes(x = factor(decade), y = Fatalities/50,fill = factor(Region)), 
-           inherit.aes = FALSE)+
+  #geom_bar(stat = 'identity',width=0.05,col='grey', aes(x = factor(decade), y = Fatalities/50,fill = factor(Region)), 
+  #         inherit.aes = FALSE)+
   scale_fill_manual(values = seasonalCol)+
   theme(panel.background = element_rect(fill = "white"),
         panel.grid = element_line(color = "grey"),
         legend.position = c(0.15, 0.75),
-        text = element_text(size = 15))+
+        text = element_text(size = 25))+
   scale_y_continuous(
     
     # Features of the first axis
     name = "Events",
     
     # Add a second axis and specify its features
-    sec.axis = sec_axis(~.*coeff, name="Fatalities")
+    #sec.axis = sec_axis(~.*coeff, name="Fatalities")
   ) +
   xlab("") + 
   ylab("Events")+
@@ -115,6 +116,32 @@ pdecadal <- ggplot(subset(db_dataImpact, numyear>0), aes(x=factor(decade),fill =
 
 png(file=figures_path&'\\avalanchestemporal.png', res = 160,width=1800,height=900)
 print(pdecadal)
+dev.off()
+
+
+pdecadal_fatalities <- ggplot(subset(db_dataImpact, numyear>0), aes(x=factor(decade),fill = factor(Region)))+
+  #geom_bar(stat="count", width=1, position = position_dodge2(preserve = "single"))+
+  geom_bar(stat = 'identity',width=0.5,col='grey', aes(x = factor(decade), y = Fatalities,fill = factor(Region)), 
+                   inherit.aes = FALSE)+
+  scale_fill_manual(values = seasonalCol)+
+  theme(panel.background = element_rect(fill = "white"),
+        panel.grid = element_line(color = "grey"),
+        legend.position = "none",
+        text = element_text(size = 25))+
+  scale_y_continuous(
+    
+    # Features of the first axis
+    name = "Fatalities"
+    
+    # Add a second axis and specify its features
+    #sec.axis = sec_axis(~.*coeff, name="Fatalities")
+  ) +
+  xlab("") + 
+  ylab("Fatalities")+
+  labs(fill = "")
+
+png(file=figures_path&'\\avalanchestemporal_fatalities.png', res = 160,width=1800,height=900)
+print(pdecadal_fatalities)
 dev.off()
 
 # Seasonal distribution of avalanches
@@ -125,13 +152,13 @@ pseasonal <- ggplot(subset(db_dataImpact, !is.na(Month)), aes(x=factor(Month),fi
   theme(panel.background = element_rect(fill = "white"),
         panel.grid = element_line(color = "grey"),
         legend.position =  "none",
-        text = element_text(size = 15))+
+        text = element_text(size = 25))+
   scale_x_discrete("Month") +
   xlab("") + 
-  ylab("")+
+  ylab("Events")+
   labs(fill = "")
 
-png(file=figures_path&'\\avalanchesseasonal.png', res = 160,width=900,height=900)
+png(file=figures_path&'\\avalanchesseasonal.png', res = 160,width=900,height=1600)
 print(pseasonal)
 dev.off()
 
@@ -155,6 +182,6 @@ IRA <- length(which(db_data$Type=='ice and rock avalanche ')) / length(db_data$Y
 PSA <- length(which(db_data$Type=='powder snow avalanche ')) / length(db_data$Year) * 100
 GD <- length(which(db_data$Type=='glacier detachment')) / length(db_data$Year) * 100
 
-summerGLOFs <- length(which(db_data$Month>=6&db_data$Month<9)) / length(which(!is.na(db_data$Month))) * 100
-winterGLOFs <- length(which(db_data$Month<4|db_data$Month>=11)) / length(which(!is.na(db_data$Month))) * 100
+summerAval <- length(which(db_data$Month>=4&db_data$Month<12)) / length(which(!is.na(db_data$Month))) * 100
+winterAval <- length(which(db_data$Month<4|db_data$Month>=12)) / length(which(!is.na(db_data$Month))) * 100
 
