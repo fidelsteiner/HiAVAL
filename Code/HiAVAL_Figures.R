@@ -27,10 +27,12 @@ library(leastcostpath)
 library(raster)
 library(rgdal)
 library(sf)
+library(terra)
 library(vioplot)
 library('scales')
 library(lwgeom)
 library(ggplot2)
+library('tidyverse')
 
 ################ 
 # paths and raw data (needs to be updated to local paths)
@@ -70,8 +72,8 @@ avalImpact <- which(db_data$Impact=='Y')
 # Time series of avalanches
 
 db_data$Region <- db_data$Region_HiMAP # Name Regions for better plotting (HiMap)
-db_data$Region[db_data$Region_HiMAP == '4'] <- 'Tien Shan'
-db_data$Region[db_data$Region_HiMAP == '2'] <- 'Tien Shan'
+db_data$Region[db_data$Region_HiMAP == '4'] <- 'Tian Shan'
+db_data$Region[db_data$Region_HiMAP == '2'] <- 'Tian Shan'
 db_data$Region[db_data$Region_HiMAP == '5'] <- 'Pamir'
 db_data$Region[db_data$Region_HiMAP == '6'] <- 'Pamir'
 db_data$Region[db_data$Region_HiMAP == '8'] <- 'Hindukush'
@@ -144,13 +146,66 @@ png(file=figures_path&'\\avalanchestemporal_fatalities.png', res = 160,width=180
 print(pdecadal_fatalities)
 dev.off()
 
-# Seasonal distribution of avalanches
+# Seasonal distribution of avalanches (events per month divided by the number of years recorded)
 
+# Calculate N month / N years for each region
+seasonalM <- matrix(nrow = 12,ncol=8)
+seasonalY <- matrix(nrow = 12,ncol=8)
+for(mh in 1:12){
+  seasonalM[mh,1] <- length(which(db_dataImpact$Region=='Himalaya C'&db_dataImpact$Month==mh))
+  seasonalY[mh,1] <- length(unique(db_dataImpact$Year[which(db_dataImpact$Region=='Himalaya C'&db_dataImpact$Month==mh)]))
+  seasonalM[mh,2] <- length(which(db_dataImpact$Region=='Himalaya W'&db_dataImpact$Month==mh))
+  seasonalY[mh,2] <- length(unique(db_dataImpact$Year[which(db_dataImpact$Region=='Himalaya W'&db_dataImpact$Month==mh)]))
+  seasonalM[mh,3] <- length(which(db_dataImpact$Region=='Hindukush'&db_dataImpact$Month==mh))
+  seasonalY[mh,3] <- length(unique(db_dataImpact$Year[which(db_dataImpact$Region=='Hindukush'&db_dataImpact$Month==mh)]))
+  seasonalM[mh,4] <- length(which(db_dataImpact$Region=='Karakoram'&db_dataImpact$Month==mh))
+  seasonalY[mh,4] <- length(unique(db_dataImpact$Year[which(db_dataImpact$Region=='Karakoram'&db_dataImpact$Month==mh)]))
+  seasonalM[mh,5] <- length(which(db_dataImpact$Region=='Pamir'&db_dataImpact$Month==mh))
+  seasonalY[mh,5] <- length(unique(db_dataImpact$Year[which(db_dataImpact$Region=='Pamir'&db_dataImpact$Month==mh)]))
+  seasonalM[mh,6] <- length(which(db_dataImpact$Region=='Tibet'&db_dataImpact$Month==mh))
+  seasonalY[mh,6] <- length(unique(db_dataImpact$Year[which(db_dataImpact$Region=='Tibet'&db_dataImpact$Month==mh)]))
+  seasonalM[mh,7] <- length(which(db_dataImpact$Region=='Tien Shan'&db_dataImpact$Month==mh))
+  seasonalY[mh,7] <- length(unique(db_dataImpact$Year[which(db_dataImpact$Region=='Tien Shan'&db_dataImpact$Month==mh)]))
+  seasonalM[mh,8] <- length(which(is.na(db_dataImpact$Region)&db_dataImpact$Month==mh))
+  seasonalY[mh,8] <- length(unique(db_dataImpact$Year[which(is.na(db_dataImpact$Region)&db_dataImpact$Month==mh)]))
+  
+}
+
+
+dbseasonal <- seasonalM/seasonalY
+colnames(dbseasonal) <- c("Himalaya C","Himalaya W","Hindukush","Karakoram","Pamir","Tibet","Tien Shan","NA")
+rownames(dbseasonal) <- c(1,2,3,4,5,6,7,8,9,10,11,12)
+
+
+dbseasonal[is.infinite(dbseasonal)] <- 0
+dbseasonal[is.nan(dbseasonal)] <- 0
+dbs <- as.data.frame(dbseasonal)
+dbs2 <- dbs %>%
+  rownames_to_column() %>%
+  pivot_longer(cols = -rowname, names_to = "Region")
+dbs2$rowname <- as.numeric(dbs2$rowname)
+
+dbs2 <- within(dbs2, 
+                  rowname <- factor(rowname, 
+                                      levels=names(sort(table(as.numeric(dbs2$rowname)), 
+                                                        increasing=TRUE))))
+
+pseasonal2 <- ggplot(dbs2, aes(x = reorder(rowname,rowname,length), y = value, fill = Region)) + 
+  geom_bar(width = 1, stat = "identity",position = position_dodge2(preserve = "single")) +
+  scale_fill_manual(values = seasonalCol)+
+  theme(panel.background = element_rect(fill = "white"),
+        panel.grid = element_line(color = "grey"),
+        legend.position =  "none",
+        text = element_text(size = 25))+
+  scale_x_discrete("Month") +
+  xlab("") + 
+  ylab("Events [n month / n years]")+
+  labs(fill = "")
 pseasonal <- ggplot(subset(db_dataImpact, !is.na(Month)), aes(x=factor(Month),fill = factor(Region)))+
   geom_bar(stat="count", width=1, position = position_dodge2(preserve = "single"))+
   scale_fill_manual(values = seasonalCol)+
   theme(panel.background = element_rect(fill = "white"),
-        panel.grid = element_line(color = "grey"),
+       panel.grid = element_line(color = "grey"),
         legend.position =  "none",
         text = element_text(size = 25))+
   scale_x_discrete("Month") +
@@ -160,6 +215,10 @@ pseasonal <- ggplot(subset(db_dataImpact, !is.na(Month)), aes(x=factor(Month),fi
 
 png(file=figures_path&'\\avalanchesseasonal.png', res = 160,width=900,height=1600)
 print(pseasonal)
+dev.off()
+
+png(file=figures_path&'\\avalanchesseasonal_rev.png', res = 160,width=900,height=1600)
+print(pseasonal2)
 dev.off()
 
 # Distribution by country and RGI region

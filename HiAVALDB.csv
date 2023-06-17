@@ -180,7 +180,7 @@ Shuraki Kapali catchment,2003,9,NA,38.969984,70.845789,Tajikistan,6,glacier deta
 Shuraki Kapali catchment,2003,8,,38.969984,70.845789,Tajikistan,6,glacier detachment,N,0,0,0,,,"(Leinss et al., 2021)"
 Shuraki Kapali catchment,2016,7,NA,38.969984,70.845789,Tajikistan,6,glacier detachment,N,0,0,0,,,"(Leinss et al., 2021)"
 "Panam, Kuran wa Munjan, Badakhshan",2021,3,28,35.83943116,70.84646298,Afghanistan,8,slab avalanche,N,0,NA,0,,,AKAH-A
-Rasht,2017,7,10,38.975,70.85,Tajikistan,6,glacier detachment,N,0,0,,,in between 10-11 July,"(K‰‰b et al., 2021)"
+Rasht,2017,7,10,38.975,70.85,Tajikistan,6,glacier detachment,N,0,0,0,,in between 10-11 July,"(K‰‰b et al., 2021)"
 "Rawand (Nusai), Nusai, Badakhshan",2017,1,29,38.33087591,70.85293008,Afghanistan,6,slab avalanche,N,0,NA,0,,,AKAH-A
 "Rawand (Nusai), Nusai, Badakhshan",2017,2,5,38.33087591,70.85293008,Afghanistan,6,slab avalanche,Y,0,4,0,,4 persons injured,AKAH-A
 "Wujmi Payan, Nusai, Badakhshan",2022,3,14,38.3669264,70.85319222,Afghanistan,6,slab avalanche,N,0,NA,0,,,AKAH-A
@@ -644,7 +644,7 @@ Langtang ,2019,4,,28.217826,85.517401,Nepal,11,wet snow avalanche,N,0,NA,0,,,wit
 Sindhum,2007,11,NA,28.215008,85.526744,Nepal,11,NA,Y,2,0,NA,,damaged all fifteen houses in that settlement,"(Soden et al., 2018)"
 Lirung avalanche,2018,11,,28.237891,85.536642,Nepal,11,powder snow avalanche ,N,0,NA,0,,,witnessed
 Katon-Karagay,2022,6,23,49.152485,85.562966,Kazakhstan,NA,NA,Y,2,1,NA,,,https://www.inform.kz/en/two-climbers-killed-in-avalanche-in-east-kazakhstan_a3947897
-Gokyo ,1995,11,12,27.912404,86.683499,Nepal,11,NA,Y,48,NA,NA,,avalanche/snowstorms,"(Thakuri et al., 2020)"
+Gokyo ,1995,11,12,27.912404,86.683499,Nepal,11,NA,Y,48,NA,100,,avalanche/snowstorms,"(Thakuri et al., 2020)"
 Everest region,1997,,,28.000026,86.853861,Nepal,11,NA,Y,19,NA,NA,, avalanche/snowstorm,"(Thakuri et al., 2020)"
 1980 avalanches,1980,NA,NA,27.982441,86.88153,Nepal,11,NA,Y,10,NA,NA,,,"(Thakuri et al., 2020)"
 Lugnak La avalanche,2020,5,14,27.895319,88.481671,India,12,snow avalanche,Y,2,NA,NA,,,https://www.hindustantimes.com/india-news/two-soldiers-dead-in-avalanche-at-sikkim-s-lugnak-la/story-neYTXF55CsJy4rJEGdrrLL.html
@@ -654,14 +654,14 @@ Amney Machen,2007,9,,34.82,99.44,China,21,glacier detachment,N,0,0,0,,happened b
 Amney Machen,2016,10,,34.82,99.44,China,21,glacier detachment,N,0,NA,0,,happened between 4 - 7 Oct,"(K‰‰b et al., 2021)"
 Amney Machen,2019,7,9,34.82,99.44,China,21,glacier detachment,N,0,0,0,,between 9-20 July,"(K‰‰b et al., 2021)"
 "Kaicheng Town, Yuanzhou District",2012,6,5,36.210025,104.213076,China,22,NA,Y,10,NA,NA,,,https://reliefweb.int/report/china/avalanche-leaves-3-dead-7-missing-nw-china
-Chitral ,2012,3,19, 35.845718∞, 71.809852∞,Pakistan,8,snow avalanche,Y,5,NA,NA,,,"(Chabot et al., 2016)"
-Tajik Badhakshan,2012,3,19, 38.474399∞, 73.102399∞,Tajikistan,6,snow avalanche,Y,1,NA,50,,,"(Chabot et al., 2016)"
-Gilgit,2012,3,19,  35.856445∞, 74.462647∞,Pakistan,8,snow avalanche,Y,4,3,NA,,,"(Chabot et al., 2016)"
-Mustang,1998,NA,NA, 28.688387∞, 83.543016∞,Nepal,11,NA,Y,0,NA,25,,Yaks,
-Mustang,1998,NA,NA, 28.688387∞, 83.543016∞,Nepal,11,ice and snow avalanche,Y,3,NA,85,,85 cows dead,personal communication
-Mustang,1987,NA,NA, 28.688387∞, 83.543016∞,Nepal,11,NA,Y,0,0,62,,Yaks,
-Mustang,2003,NA,NA, 28.601155∞, 83.596533∞,Nepal,11,ice and snow avalanche,Y,0,NA,70,,single owner lost 70 yaks,"https://lib.icimod.org/record/12691#:~:text=There%20are%20thirty%20yak%20herd,5%2C000%20metres%20above%20sea%20level."
-Langtang,1997,8,NA, 28.206287∞, 85.622930∞,Nepal,11,NA,Y,0,NA,5,,,https://case.edu/affil/tibet/documents/McVeighNomadicPeoplesArticle.pdf
+Chitral ,2012,3,19,35.845718,71.809852,Pakistan,8,snow avalanche,Y,5,NA,NA,,,"(Chabot et al., 2016)"
+Tajik Badhakshan,2012,3,19,38.474399,73.102399,Tajikistan,6,snow avalanche,Y,1,NA,50,,,"(Chabot et al., 2016)"
+Gilgit,2012,3,19,35.856445,74.462647,Pakistan,8,snow avalanche,Y,4,3,NA,,,"(Chabot et al., 2016)"
+Mustang,1998,NA,NA,28.688387,83.543016,Nepal,11,NA,Y,0,NA,25,,Yaks,
+Mustang,1998,NA,NA,28.688387,83.543016,Nepal,11,ice and snow avalanche,Y,3,NA,85,,85 cows dead,personal communication
+Mustang,1987,NA,NA,28.688387,83.543016,Nepal,11,NA,Y,0,0,62,,Yaks,
+Mustang,2003,NA,NA,28.601155,83.596533,Nepal,11,ice and snow avalanche,Y,0,NA,70,,single owner lost 70 yaks,"https://lib.icimod.org/record/12691#:~:text=There%20are%20thirty%20yak%20herd,5%2C000%20metres%20above%20sea%20level."
+Langtang,1997,8,NA,28.206287,85.62293,Nepal,11,NA,Y,0,NA,5,,,https://case.edu/affil/tibet/documents/McVeighNomadicPeoplesArticle.pdf
 "Jamarch Bala, Maimai, Badakhshan",2022,2,23,NA,NA,Afghanistan,8,slab avalanche,N,0,NA,0,,,AKAH-A
 NA,2017,2,19,NA,NA,Kyrgyzstan,5,snow avalanche,Y,3,NA,NA,,,https://reliefweb.int/report/tajikistan/deadly-avalanches-hit-central-asia
 NA,2017,2,19,NA,NA,Tajikistan,6,snow avalanche,Y,5,NA,NA,,,https://reliefweb.int/report/tajikistan/deadly-avalanches-hit-central-asia
