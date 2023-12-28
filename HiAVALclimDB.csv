@@ -1,4 +1,5 @@
 Peak,Elevation,Country,Total_fatalities,Total_events,Staff_fatalities
+Shimshal,?,Pakistan,1,1,0
 Gangapurna,7455,Nepal,8,1,0
 Sisne Himal,5911,Nepal,1,1,0
 Pik Lenin,7134,Tajikistan/Kyrgyzstan,43,1,0
@@ -38,7 +39,7 @@ Jannu (Khumbhakarna),7711,Nepal,2,1,0
 Dhaulagiri II,7751,Nepal,2,1,2
 Nuptse,7864,Nepal,1,1,0
 "Peak 29 (Ngadi Chuli, Dr Harka Gurung Chuli)",7871,Nepal,3,1,0
-Shisha Pangma,8013,China,15,8,2
+Shisha Pangma,8013,China,17,9,4
 Gasherbrum II ,8035,Pakistan/China,4,3,0
 Broad Peak,8047,Pakistan,5,4,1
 Gasherbrum I ,8068,Pakistan/China,10,4,4
@@ -51,5 +52,5 @@ Makalu,8463,Nepal/China,3,3,1
 Lhotse,8516,Nepal,14,8,2
 Kangchenjunga,8586,Nepal/India,6,,2
 K2,8611,Pakistan/China,24,10,4
-Qomolongma,8848,Nepal/China,98,32,66
-,,,565,192,189
+Qomolongma,8848,Nepal/China,98,33,69
+,,,568,195,194

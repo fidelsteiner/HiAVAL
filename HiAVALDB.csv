@@ -624,7 +624,7 @@ Chamoli,2021,4,23,30.822323,79.966271,India,11,NA,Y,8,NA,NA,,,https://thehimalay
 Pithoragarh,2017,3,11,30.098666,80.800212,India,11,NA,Y,3,NA,NA,,1 missing,https://kathmandupost.com/miscellaneous/2017/03/15/two-nepalis-killed-one-missing-in-uttarakhand-avalanche
 Darchula avalanche,2017,6,1,29.85797,80.938675,Nepal,11,NA,Y,1,6,NA,,"6 injured, Yarsagumba picker",https://kathmandupost.com/national/2017/06/03/yarsagumba-collector-killed-in-darchula-avalanche
 "Byasimare, Bajhang",2022,6,2,29.641032,81.074734,Nepal,11,NA,Y,1,NA,NA,,Local people suspected wildfire in pine forest as a cause of avalanche ,https://kathmandupost.com/climate-environment/2022/06/29/wildfires-in-bajhang-highlands-destroy-biodiversity
-Ili,2008,3,17,43.92†,81.32,China,6,NA,Y,16,NA,NA,,,https://reliefweb.int/report/china/death-toll-rises-weather-hinders-rescue-nw-china-avalanche
+Ili,2008,3,17,43.92,81.32,China,6,NA,Y,16,NA,NA,,,https://reliefweb.int/report/china/death-toll-rises-weather-hinders-rescue-nw-china-avalanche
 Aru-1,2016,7,17,34.02,82.25,China,16,glacier detachment,Y,9,NA,100,,>100 yaks killed,"(K‰‰b et al., 2021)"
 Aru-2,2016,9,,34,82.265,China,16,glacier detachment,N,0,NA,0,,,"(K‰‰b et al., 2021)"
 "Okta, Dolpa avalanche",2017,3,11,29.07739,82.44277,Nepal,11,NA,Y,0,NA,8,,8 horses and mules,https://kathmandupost.com/national/2017/03/16/one-missing-another-injured-in-dolpa-avalanche
@@ -683,3 +683,38 @@ NA,2017,2,19,NA,NA,Tajikistan,6,snow avalanche,Y,5,NA,NA,,,https://reliefweb.int
 NA,2002 - 2008,NA,NA,NA,NA,Kyrgyzstan,5,NA,Y,56,NA,NA,,,https://www.preventionweb.net/files/14436_14436INDEPTHREVIEWOFDRRINKRfinal1.pdf
 "Gharan, Ishkashim, Badakhshan",2021,3,18,NA,NA,Afghanistan,6,slab avalanche,N,0,NA,0,,,AKAH-A
 "Woned, Ishkashim, Badakhshan",2021,3,29,NA,NA,Afghanistan,6,slab avalanche,N,0,NA,0,,,AKAH-A
+"Nathula, Sikkim",2023,4,4,27.376775,88.763713,India,,NA,Y,7,11,,,,https://www.cnbctv18.com/india/sikkim-avalanche-nathula-live-updates-gangtok-weather-16332941.htm
+Chika,2023,2,5,NA,NA,India,,NA,Y,3,,0,,,https://twitter.com/shubhamtorres09/status/1622257181818257408?t=4CFZGaP0fpxszoUfKPcyoQ&s=19
+Naltar,2023,1,18,36.171337,74.16054,Pakistan,,NA,Y,2,0,0,,,https://twitter.com/pamirtimes/status/1616051671070638080
+Medog,2023,1,17,NA,NA,China,,NA,Y,28,5,0,,,https://www.aljazeera.com/news/2023/1/20/death-toll-in-tibet-avalanche-rises-to-20-eight-still-missing
+Khorog,2023,2,14,37.494658,71.550686,Tajikistan,,NA,Y,18,,,,,"https://www.reuters.com/world/asia-pacific/avalanches-kill-10-people-tajikistan-2023-02-15/ , https://www.reuters.com/world/asia-pacific/tajik-avalanche-death-toll-rises-15-2023-02-16/"
+NA,2023,2,14,NA,NA,Tajikistan,,NA,Y,1,,,,,"https://www.reuters.com/world/asia-pacific/avalanches-kill-10-people-tajikistan-2023-02-15/ , https://www.reuters.com/world/asia-pacific/tajik-avalanche-death-toll-rises-15-2023-02-16/"
+NA,2023,2,14,NA,NA,Tajikistan,,NA,Y,1,,,,,"https://www.reuters.com/world/asia-pacific/avalanches-kill-10-people-tajikistan-2023-02-15/ , https://www.reuters.com/world/asia-pacific/tajik-avalanche-death-toll-rises-15-2023-02-16/"
+Badakhshan ,2023,2,25,NA,NA,Afghanistan,,NA,Y,4,,,,,https://www.radio.gov.pk/25-02-2023/avalanche-kills-four-persons-in-afghanistan
+Badakhshan ,2023,2,18,NA,NA,Afghanistan,,NA,Y,12,12,,,"The avalanches also injured 12 people and de≠stroyed 50 homes, he added.",https://www.nation.com.pk/18-Feb-2023/avalanches-kill-at-least-12-in-northeastern-afghanistan
+Darchula,2023,5,2,NA,NA,Nepal,,NA,Y,5,3,,,,"https://en.setopati.com/social/160965, https://kathmandupost.com/sudurpaschim-province/2023/05/23/three-bodies-recovered-from-bajhang-avalanche"
+Mugu,2023,5,7,NA,NA,Nepal,,NA,Y,3,12,,,,https://kathmandupost.com/karnali-province/2023/05/07/one-die-two-missing-in-mugu-avalanche
+Astore,2023,5,27,NA,NA,Pakistan,,NA,Y,11,13,,,,"https://twitter.com/pamirtimes/status/1662564922209845251?t=MX0qqOUeedEJFPazwSRe_Q&s=19, https://www.reuters.com/world/asia-pacific/avalanche-kills-11-members-nomadic-tribe-northern-pakistan-2023-05-27/"
+Talgar Pass,1951,11,NA,43.114748,77.111547,Kazakhstan,4,NA,Y,5,3,,Y,,https://edoc.ub.uni-muenchen.de/7262/1/Yegorov_Alexandr.pdf
+Tuyuksu Gletscher,1958,11,NA,43.040461,77.039701,Kazakhstan,4,NA,Y,1,,,,,https://edoc.ub.uni-muenchen.de/7262/1/Yegorov_Alexandr.pdf
+Pinoer Pass,1961,3,NA,42.545453,74.548544,Kazakhstan,4,NA,Y,1,1,,Y,,https://edoc.ub.uni-muenchen.de/7262/1/Yegorov_Alexandr.pdf
+Komsomol Peak,1966,3,NA,42.571172,74.546949,Kazakhstan,4,NA,Y,2,2,,,,https://edoc.ub.uni-muenchen.de/7262/1/Yegorov_Alexandr.pdf
+Tuyuksu Gletscher,1986,3,NA,43.040461,77.039701,Kazakhstan,4,NA,Y,,1,,,,https://edoc.ub.uni-muenchen.de/7262/1/Yegorov_Alexandr.pdf
+Tuyuksu Gletscher,1986,11,7,43.040461,77.039701,Kazakhstan,4,NA,Y,6,2,,Y,,https://edoc.ub.uni-muenchen.de/7262/1/Yegorov_Alexandr.pdf
+Shymbulak,1991,3,NA,43.128277,77.080485,Kazakhstan,4,NA,Y,0,1,0,Y,,https://edoc.ub.uni-muenchen.de/7262/1/Yegorov_Alexandr.pdf
+Shymbulak,1987,3,NA,43.128277,77.080485,Kazakhstan,4,NA,Y,1,0,0,Y,,https://edoc.ub.uni-muenchen.de/7262/1/Yegorov_Alexandr.pdf
+Talgar Pass,1995,4,NA,43.114748,77.111547,Kazakhstan,4,NA,Y,0,8,,Y,,https://edoc.ub.uni-muenchen.de/7262/1/Yegorov_Alexandr.pdf
+Tuyuksu Gletscher,1998,3,NA,43.040461,77.039701,Kazakhstan,4,NA,Y,0,1,,,,https://edoc.ub.uni-muenchen.de/7262/1/Yegorov_Alexandr.pdf
+Pinoer Pass,2003,3,NA,42.545453,74.548544,Kazakhstan,4,NA,Y,1,0,,Y,,https://edoc.ub.uni-muenchen.de/7262/1/Yegorov_Alexandr.pdf
+Komsomol Peak,2003,3,3,42.571172,74.546949,Kazakhstan,4,NA,Y,1,1,,,,https://edoc.ub.uni-muenchen.de/7262/1/Yegorov_Alexandr.pdf
+Shymbulak,1990,5,1,43.128277,77.080485,Kazakhstan,4,NA,Y,4,0,0,,,https://edoc.ub.uni-muenchen.de/7262/1/Yegorov_Alexandr.pdf
+Shymbulak,2005,2,12,43.128277,77.080485,Kazakhstan,4,NA,Y,1,0,0,,,https://edoc.ub.uni-muenchen.de/7262/1/Yegorov_Alexandr.pdf
+Shymbulak,2005,3,NA,43.128277,77.080485,Kazakhstan,4,NA,Y,0,1,0,Y,,https://edoc.ub.uni-muenchen.de/7262/1/Yegorov_Alexandr.pdf
+Butakovskoye,2006,1,0,43.16099,77.04667,Kazakhstan,4,NA,Y,2,0,0,Y,,https://edoc.ub.uni-muenchen.de/7262/1/Yegorov_Alexandr.pdf
+Bajhang,2023,5,21,NA,NA,Nepal,11,NA,Y,3,3,0,,,https://kathmandupost.com/sudurpaschim-province/2023/05/23/three-bodies-recovered-from-bajhang-avalanche
+Chamoli,2023,6,7,NA,NA,India,,NA,Y,1,0,,,,https://reliefweb.int/report/india/india-snow-avalanche-imd-media-echo-daily-flash-07-june-2023
+Gozhak,2023,2,16,NA,NA,Tajikistan,,NA,Y,1,0,,,,https://asiaplustj.info/en/news/tajikistan/incidents/20230220/avalanches-claim-19-lives-in-the-gorno-badakhshan-autonomous-region-according-to-the-emergencies-committee
+Chamber,2022,6,24,NA,NA,Pakistan,,NA,Y,1,0,,,,https://rms.pdma.gov.pk/ViewDSR.aspx?DSRID=2228
+Manaslu,2023,9,26,28.601824,84.621013,Nepal,,NA,Y,0,15,0,,,https://www.risingnepaldaily.com/news/16527
+Gulmarg,2023,1,30,34.05491,74.392715,India,,NA,Y,2,0,0,Y,,https://unofficialnetworks.com/2023/02/03/massive-avalanche-gulmarg/
+Dangam,2023,2,6,34.996706,71.413035,Afghanistan,,NA,Y,10,9,,,,https://reliefweb.int/report/afghanistan/afghanistan-avalanches-amd-media-echo-daily-flash-15-february-2023
