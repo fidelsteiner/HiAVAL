@@ -275,6 +275,9 @@ Darchula avalanche,2017,6,1,29.85797,80.938675,Nepal,11,NA,Y,1,6,NA,,"6 injured,
 Dolpa avalanche,2017,3,11,28.840926,83.059938,Nepal,11,NA,Y,1,1,NA,,1 injured,https://kathmandupost.com/national/2017/03/16/one-missing-another-injured-in-dolpa-avalanche
 NA,2017,2,19,NA,NA,Kyrgyzstan,5,snow avalanche,Y,3,NA,NA,,,https://reliefweb.int/report/tajikistan/deadly-avalanches-hit-central-asia
 NA,2017,2,19,NA,NA,Tajikistan,6,snow avalanche,Y,5,NA,NA,,,https://reliefweb.int/report/tajikistan/deadly-avalanches-hit-central-asia
+Sher Shall,2017,2,5,35.98039,71.810334,Pakistan,,snow avalanche,Y,14,NA,NA,,"25 houses buried, 5 destroyed",https://communityworldservice.asia/situation-alert-killer-avalanche-hits-chitral/
+Pishotan,2017,2,5,35.317081,71.5596,Pakistan,,snow avalanche,Y,1,6,NA,,,https://communityworldservice.asia/situation-alert-killer-avalanche-hits-chitral/
+Lowari,2017,2,18,35.386206,71.780256,Pakistan,,snow avalanche,Y,7,7,NA,,,https://asiantelegraphqatar.com/current-affairs/seven-korean-company-workers-died-seven-injured-in-avalanche-in-pakistan/
 "Shrinazm, Shukai, Badakhshan",2018,2,15,38.18705,70.56997,Afghanistan,6,slab avalanche,N,0,NA,0,,,AKAH-A
 "Shrinazm, Shukai, Badakhshan",2018,2,15,38.18705,70.56997,Afghanistan,6,slab avalanche,N,0,NA,0,,,AKAH-A
 "Zangeryai-Bala, Shukai, Badakhshan",2018,2,15,38.31178999,70.60808999,Afghanistan,6,slab avalanche,N,0,NA,0,,,AKAH-A
@@ -723,13 +726,22 @@ Manaslu,2023,9,26,28.601824,84.621013,Nepal,,NA,Y,0,15,0,,,https://www.risingnep
 Gulmarg,2023,1,30,34.05491,74.392715,India,,NA,Y,2,0,0,Y,,https://unofficialnetworks.com/2023/02/03/massive-avalanche-gulmarg/
 Dangam,2023,2,6,34.996706,71.413035,Afghanistan,6,NA,Y,10,9,,,,https://reliefweb.int/report/afghanistan/afghanistan-avalanches-amd-media-echo-daily-flash-15-february-2023
 Saif ul Mulook,2024,3,21,34.908453,73.670089,Pakistan,8,NA,Y,0,0,0,,,https://tribune.com.pk/story/2460069/glacier-burst-buries-hotels-houses-in-naran
-Safid Chehr,2024,2,NA,35.454953,69.758174,Afghanistan,,snow,Y,5,,,,,https://kabulnow.com/2024/02/34589/
-Khinj,2024,2,NA,37.544156,70.990074,Afghanistan,,snow,Y,3,,,,,https://kabulnow.com/2024/02/34589/
-Nakre,2024,2,18,35.049848,70.473311,Afghanistan,,snow,Y,25,8,,,,https://www.voanews.com/a/killed-in-afghanistan-landslide-caused-by-snowfall/7493748.html
-Gulmarg,2024,2,22,34.03179,74.359307,India,,snow,Y,1,,,Y,,https://www.reuters.com/world/india/avalanche-indian-kashmir-kills-one-foreign-skier-traps-several-others-2024-02-22/
-Kansh Kya,2024,10,9,41.753565,71.091113,Kyrgyzstan,,snow,Y,6,,,,,https://en.kabar.kg/news/bodies-of-all-six-people-killed-in-avalanche-in-kyrgyzstan-found/
-Boksi Khola,2024,8,23,28.689363,83.59783,Nepal,,snow,N,,,,,,https://kathmandupost.com/national/2024/08/23/avalanche-blocks-river-in-mustang
-Jyrgalan,2024,2,26,42.576587,79.034205,Kyrgyzstan,,snow,Y,4,,,Y,,https://english.news.cn/20240227/2bb8976177d540c18e8ef9396b916afd/c.html
+Safid Chehr,2024,2,NA,35.454953,69.758174,Afghanistan,,snow avalanches,Y,5,,,,,https://kabulnow.com/2024/02/34589/
+Khinj,2024,2,NA,37.544156,70.990074,Afghanistan,,snow avalanches,Y,3,,,,,https://kabulnow.com/2024/02/34589/
+Nakre,2024,2,18,35.049848,70.473311,Afghanistan,,snow avalanches,Y,25,8,,,,https://www.voanews.com/a/killed-in-afghanistan-landslide-caused-by-snowfall/7493748.html
+Gulmarg,2024,2,22,34.03179,74.359307,India,,snow avalanches,Y,1,,,Y,,https://www.reuters.com/world/india/avalanche-indian-kashmir-kills-one-foreign-skier-traps-several-others-2024-02-22/
+Kansh Kya,2024,10,9,41.753565,71.091113,Kyrgyzstan,,snow avalanches,Y,6,,,,,https://en.kabar.kg/news/bodies-of-all-six-people-killed-in-avalanche-in-kyrgyzstan-found/
+Boksi Khola,2024,8,23,28.689363,83.59783,Nepal,,snow avalanches,N,,,,,,https://kathmandupost.com/national/2024/08/23/avalanche-blocks-river-in-mustang
+Jyrgalan,2024,2,26,42.576587,79.034205,Kyrgyzstan,,snow avalanches,Y,4,,,Y,,https://english.news.cn/20240227/2bb8976177d540c18e8ef9396b916afd/c.html
 NA,2002 - 2008,NA,NA,NA,NA,Kyrgyzstan,5,NA,Y,56,NA,NA,,,https://www.preventionweb.net/files/14436_14436INDEPTHREVIEWOFDRRINKRfinal1.pdf
-Hisa Awal,2024,2,NA,35.598417,70.045361,Afghanistan,,snow,Y,7,1,,,,https://amu.tv/84106/
-Khinj,2024,2,NA,35.469207,69.116163,Afghanistan,,snow,Y,3,,,,,https://amu.tv/84106/
+Hisa Awal,2024,2,NA,35.598417,70.045361,Afghanistan,,snow avalanches,Y,7,1,,,,https://amu.tv/84106/
+Khinj,2024,2,NA,35.469207,69.116163,Afghanistan,,snow avalanches,Y,3,,,,,https://amu.tv/84106/
+Yalung Ri,2025,11,3,27.896575,86.486777,Nepal,11,snow avalanches,Y,7,,,Y,,https://www.bbc.com/news/articles/c2kp42y5y81o
+Ragh,2025,3,7,37.540656,70.453309,Afghanistan,,snow avalanches,Y,2,,,,,https://english.news.cn/asiapacific/20250308/e3982432b45e4df29b2f1f73ecc7487b/c.html
+Anqar Chaq,2025,2,16,33.360409,65.065204,Afghanistan,,snow avalanches,Y,3,,,,,https://caliber.az/en/post/fatal-avalanche-in-western-afghanistan-leaves-three-dead-police-confirm
+Lunana,2025,1,7,28.114055,90.240641,Bhutan,,snow avalanches,N,,,,,,https://thebhutanese.bt/shigatse-quake-shows-danger-of-glof-induced-by-quakes-after-avalanches-and-moraine-slides/
+Mana,2025,2,28,30.767353,79.493052,India,,snow avalanches,Y,8,46,,,,https://www.ndtv.com/india-news/uttarakhand-badrinath-mana-chamoli-avalanche-2-days-on-ops-continue-to-rescue-4-trapped-in-uttarakhand-avalanche-7828127
+Gurez,2025,3,8,34.714886,74.963233,Pakistan,,snow avalanches,Y,,4,,,,https://www.dawn.com/news/1896672
+Naran,2025,3,25,34.883368,73.692302,Pakistan,,snow avalanches,Y,,,,,,https://www.dawn.com/news/1900304
+Khalti,2025,3,25,36.218014,73.291539,Pakistan,,snow avalanches,Y,,,,,1 week disruption of transport,https://www.dawn.com/news/1901941
+Jikepulin,2025,12,18,48.578085,87.488266,China,,snow avalanche,Y,1,,,Y,,https://www.chinadaily.com.cn/a/202512/18/WS69440393a310d6866eb2f5fa.html
