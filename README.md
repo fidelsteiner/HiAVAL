@@ -3,13 +3,9 @@
 ![alt text](https://github.com/fidelsteiner/HiAVAL/blob/master/HiAVALLogo.png?raw=true)
 Avalanches in high mountain Asia
 
-<<<<<<< HEAD
 This database includes recorded avalanche events in high mountain Asia, documented in https://doi.org/10.5194/nhess-2022-287 and updated since publication of the accompanying manuscript annually. Events are quality controlled up to 2025/12/31, events after that date visible in the database need cross validation.
-=======
-This database includes recorded avalanche events in high mountain Asia, documented in https://doi.org/10.5194/nhess-2022-287 and updated since publication of the accompanying manuscript annually. Events are quality controlled up to 2024/12/31, events after that date visible in the database need cross validation.
->>>>>>> 861f59be6d46f13ef81ae42d84240557825a1a5b
 
-The database includes a file for general avalanche events with noteable impacts ('HiAVALDB.csv'; Metadata under 'HiAVALDB_Metadata.txt') as well as casualties from high altitude mountaineering sorted by peak attempted (not specifiying individual events; 'HiAVALclimDB.csv').
+The database includes a file for general avalanche events with noteable impacts ('HiAVALDB.csv'; Metadata under 'HiAVALDB_Metadata.txt') as well as casualties from high altitude mountaineering sorted by peak attempted (not specifiying individual events; potentially not up to date to last year; 'HiAVALclimDB.csv').
 
 
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
